@@ -1,0 +1,42 @@
+/* Modern appointment page styles with hero banner */
+
+/* Page wrapper */
+.ba-appointment-page{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#2b2b2b}
+
+/* Hero/banner */
+.ba-hero{position:relative;min-height:320px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.ba-hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(2,48,71,0.6),rgba(3,155,214,0.35));mix-blend-mode:multiply}
+.ba-hero-inner{position:relative;max-width:1200px;width:100%;display:flex;align-items:center;justify-content:space-between;padding:40px}
+.ba-hero-text{color:#fff;max-width:640px}
+.ba-hero-text h1{font-size:36px;margin:0 0 8px 0;letter-spacing:-0.5px}
+.ba-hero-text p{font-size:16px;opacity:0.95;margin:0}
+.ba-hero-image{width:320px;height:220px;background-image:url('https://images.unsplash.com/photo-1580281658620-6b3e6a0b9f7d?auto=format&fit=crop&w=1200&q=80');background-size:cover;background-position:center;border-radius:12px;box-shadow:0 10px 30px rgba(2,18,22,0.35);flex-shrink:0;transform:translateY(0)}
+
+/* Form card overlapping hero */
+.ba-form-card{max-width:820px;margin:-60px auto 60px;padding:2px;background:linear-gradient(135deg,#667eea 0%,#764ba2 25%,#f093fb 50%,#4facfe 75%,#00f2fe 100%);border-radius:16px;box-shadow:0 20px 50px rgba(15,23,42,0.25);border:none;position:relative}
+
+.ba-form-card::before{content:'';position:absolute;inset:2px;background:#fff;border-radius:14px;z-index:1}
+
+.ba-form{display:block;position:relative;z-index:2;padding:26px}
+.ba-form p{margin:16px 0;color:#2b2b2b}
+.ba-form label{display:block;margin-bottom:8px;color:#333;font-weight:500;font-size:14px}
+.ba-form input[type="text"],.ba-form input[type="tel"],.ba-form input[type="datetime-local"]{width:100%;padding:14px;border:2px solid #e6e9ef;border-radius:10px;background:#fbfdff;transition:all 0.3s ease;font-size:15px}
+.ba-form input[type="text"]:focus,.ba-form input[type="tel"]:focus,.ba-form input[type="datetime-local"]:focus{outline:none;border-color:#667eea;background:#fff;box-shadow:0 0 0 3px rgba(102,126,234,0.1)}
+.ba-form input[type="submit"]{background:linear-gradient(135deg,#667eea 0%,#764ba2 50%,#f093fb 100%);color:#fff;border:none;padding:14px 32px;border-radius:10px;cursor:pointer;font-weight:600;font-size:16px;transition:all 0.3s ease;box-shadow:0 8px 20px rgba(102,126,234,0.35);margin-top:8px}
+.ba-form input[type="submit"]:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(102,126,234,0.45)}
+
+.ba-message{padding:12px;margin-bottom:12px;border-radius:8px}
+.ba-message.success{background:#e9fbf0;border:1px solid #bfeacc}
+.ba-message.error{background:#fff1f1;border:1px solid #f5c6c6}
+
+/* Responsive tweaks */
+@media (max-width:900px){
+	.ba-hero-inner{flex-direction:column;gap:18px;padding:28px}
+	.ba-hero-image{width:220px;height:160px}
+	.ba-hero-text h1{font-size:28px}
+}
+@media (max-width:520px){
+	.ba-hero{min-height:240px}
+	.ba-form-card{margin:-40px 16px 40px;padding:20px}
+}
+
