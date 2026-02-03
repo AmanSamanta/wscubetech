@@ -136,10 +136,8 @@ function ba_render_form_shortcode() {
                     <label>Date &amp; Time (required)
                         <input type="datetime-local" name="appointment_datetime" required>
                     </label>
-                </p>
-
-                                    <label>Phone Number (10 digits only)
-                                        <input type="tel" name="phone_number" maxlength="10" pattern="[0-9]{10}" placeholder="1234567890" style="border: 2px solid #ddd; transition: border-color 0.3s;" oninput="this.style.borderColor = this.value.length > 10 ? '#e74c3c' : (this.value.length === 10 && /^[0-9]{10}$/.test(this.value) ? '#27ae60' : '#ddd');">
+                <p>
+                    <label>Location
                         <input type="text" name="location">
                     </label>
                 </p>

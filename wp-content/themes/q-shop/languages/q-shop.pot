@@ -1,0 +1,750 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Q Shop Theme v1.0\n"
+"POT-Creation-Date: 2026-01-19 10:34+0200\n"
+"PO-Revision-Date: 2025-12-11 03:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: https://daison.me\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:7
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:9
+msgid "Sorry but the page you requested could not be found."
+msgstr ""
+
+#: 404.php:11
+msgid "Perhaps searching will help."
+msgstr ""
+
+#: author.php:22
+msgid "X"
+msgstr ""
+
+#: author.php:32
+msgid "Facebook"
+msgstr ""
+
+#: author.php:42
+msgid "LinkedIn"
+msgstr ""
+
+#: author.php:52
+msgid "Instagram"
+msgstr ""
+
+#: author.php:65
+msgid "YouTube"
+msgstr ""
+
+#: author.php:75
+msgid "Website"
+msgstr ""
+
+#: comments.php:11
+msgid " Comments"
+msgstr ""
+
+#: comments.php:15
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:20 template-parts/posts/single-layout1.php:52
+#: template-parts/posts/single-layout2.php:52
+msgid "Comments closed"
+msgstr ""
+
+#: comments.php:66
+msgid "Leave Reply"
+msgstr ""
+
+#: comments.php:67
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:68
+msgid "Submit"
+msgstr ""
+
+#: customizer/qshop_customizer.php:17
+msgid "Hero Section Logo"
+msgstr ""
+
+#: customizer/qshop_customizer.php:18
+msgid "Upload a lighter colored logo to use in the hero section."
+msgstr ""
+
+#: customizer/qshop_customizer.php:36
+msgid "PRO Active"
+msgstr ""
+
+#: customizer/qshop_customizer.php:36 inc/qshop_admin_menu.php:121
+msgid "PRO Features"
+msgstr ""
+
+#: customizer/qshop_customizer.php:51
+msgid ""
+"Thank you for using Qshop Pro! Enjoy all the premium features and "
+"customization options."
+msgstr ""
+
+#: customizer/qshop_customizer.php:52
+msgid "Premium support and many more features!"
+msgstr ""
+
+#: customizer/qshop_customizer.php:54
+msgid "Checkout All Pro Features →"
+msgstr ""
+
+#: customizer/qshop_customizer.php:58
+msgid "Multiple Hero Designs"
+msgstr ""
+
+#: customizer/qshop_customizer.php:59
+msgid "Typography (Google Fonts)"
+msgstr ""
+
+#: customizer/qshop_customizer.php:60
+msgid "Sticky Header"
+msgstr ""
+
+#: customizer/qshop_customizer.php:61
+msgid "Featured Products"
+msgstr ""
+
+#: customizer/qshop_customizer.php:62
+msgid "Reviews Section"
+msgstr ""
+
+#: customizer/qshop_customizer.php:63
+msgid "Newsletter Section"
+msgstr ""
+
+#: customizer/qshop_customizer.php:64
+msgid "Custom Widgets"
+msgstr ""
+
+#: customizer/qshop_customizer.php:65
+msgid "Categories Section"
+msgstr ""
+
+#: customizer/qshop_customizer.php:66
+msgid "FAQs Section"
+msgstr ""
+
+#: customizer/qshop_customizer.php:67
+msgid "Gallery / Instagram Section"
+msgstr ""
+
+#: customizer/qshop_customizer.php:68
+msgid "Payment Methods Icons"
+msgstr ""
+
+#: customizer/qshop_customizer.php:72
+msgid "Pro"
+msgstr ""
+
+#: customizer/qshop_customizer.php:76
+msgid "Q Shop Pro Add-on"
+msgstr ""
+
+#: customizer/qshop_customizer.php:106
+msgid "Header"
+msgstr ""
+
+#: customizer/qshop_customizer.php:120
+msgid "Announcement Bar Text"
+msgstr ""
+
+#: customizer/qshop_customizer.php:121
+msgid ""
+"Enter the text to display in the announcement bar (Leave empty to hide the "
+"announcement bar)."
+msgstr ""
+
+#: customizer/qshop_customizer.php:137
+msgid "Header Search Form"
+msgstr ""
+
+#: customizer/qshop_customizer.php:138
+msgid "Show or hide the header search form."
+msgstr ""
+
+#: customizer/qshop_customizer.php:142
+msgid "Show"
+msgstr ""
+
+#: customizer/qshop_customizer.php:143
+msgid "Hide"
+msgstr ""
+
+#: customizer/qshop_customizer.php:159
+msgid "Basics"
+msgstr ""
+
+#: customizer/qshop_customizer.php:165
+msgid "Design"
+msgstr ""
+
+#: customizer/qshop_customizer.php:178
+msgid "Post Page"
+msgstr ""
+
+#: customizer/qshop_customizer.php:179
+msgid "Select a design layout for the post page."
+msgstr ""
+
+#: customizer/qshop_customizer.php:183
+msgid "Design Layout One"
+msgstr ""
+
+#: customizer/qshop_customizer.php:184
+msgid "Design Layout Two"
+msgstr ""
+
+#: customizer/qshop_customizer.php:200
+msgid "Accent Color"
+msgstr ""
+
+#: customizer/qshop_customizer.php:201
+msgid "Select an accent color used by buttons and icons."
+msgstr ""
+
+#: customizer/qshop_customizer.php:211 customizer/qshop_customizer.php:234
+msgid "Hero Section"
+msgstr ""
+
+#: customizer/qshop_customizer.php:225
+msgid "Hero Layout One"
+msgstr ""
+
+#: customizer/qshop_customizer.php:229
+msgid "Hero Layout Two"
+msgstr ""
+
+#: customizer/qshop_customizer.php:230
+msgid "Hero Layout Three"
+msgstr ""
+
+#: customizer/qshop_customizer.php:235
+msgid "Select a hero section for the homepage."
+msgstr ""
+
+#: customizer/qshop_customizer.php:248
+msgid "Hero Background Image"
+msgstr ""
+
+#: customizer/qshop_customizer.php:249
+msgid "Upload a background image for the hero section."
+msgstr ""
+
+#: customizer/qshop_customizer.php:262
+msgid "Hero Title"
+msgstr ""
+
+#: customizer/qshop_customizer.php:263
+msgid "Enter a title for the hero section."
+msgstr ""
+
+#: customizer/qshop_customizer.php:281
+msgid "Hero Paragraph"
+msgstr ""
+
+#: customizer/qshop_customizer.php:282
+msgid "Enter a short paragraph for the hero section."
+msgstr ""
+
+#: customizer/qshop_customizer.php:288
+msgid "Trend Alert"
+msgstr ""
+
+#: customizer/qshop_customizer.php:294
+msgid "Call To Action Text"
+msgstr ""
+
+#: customizer/qshop_customizer.php:295
+msgid "Enter call to action text for the hero section."
+msgstr ""
+
+#: customizer/qshop_customizer.php:307
+msgid "Call To Action URL"
+msgstr ""
+
+#: customizer/qshop_customizer.php:308
+msgid ""
+"Enter a URL for the call to action button (Leave blank to link to shop page)."
+msgstr ""
+
+#: customizer/qshop_customizer.php:320
+msgid "Hero Layout 1 - Call To Action Image"
+msgstr ""
+
+#: customizer/qshop_customizer.php:321
+msgid "Upload an image for the call to action container."
+msgstr ""
+
+#: customizer/qshop_customizer.php:340
+msgid "Shop Items Section"
+msgstr ""
+
+#: customizer/qshop_customizer.php:346
+msgid "Shop The Latest"
+msgstr ""
+
+#: customizer/qshop_customizer.php:352
+msgid "Section Title"
+msgstr ""
+
+#: customizer/qshop_customizer.php:353
+msgid "Enter a title for the shop items section."
+msgstr ""
+
+#: customizer/qshop_customizer.php:359
+#: template-parts/home/shop-items-section.php:19
+#: template-parts/home/shop-items-section.php:75
+msgid "Wardrobe Essentials"
+msgstr ""
+
+#: customizer/qshop_customizer.php:365
+msgid "Section Subtitle"
+msgstr ""
+
+#: customizer/qshop_customizer.php:366
+msgid "Enter a subtitle for the shop items section."
+msgstr ""
+
+#: customizer/qshop_customizer.php:384
+msgid "Footer"
+msgstr ""
+
+#: customizer/qshop_customizer.php:390
+msgid "Copyrights Text"
+msgstr ""
+
+#: customizer/qshop_customizer.php:404
+msgid "Copyrights Text Left"
+msgstr ""
+
+#: customizer/qshop_customizer.php:405
+msgid "Copyrights text displayed on the left side of the footer."
+msgstr ""
+
+#: customizer/qshop_customizer.php:423
+msgid "Copyrights Text Right"
+msgstr ""
+
+#: customizer/qshop_customizer.php:424
+msgid "Copyrights text displayed on the right side of the footer."
+msgstr ""
+
+#: footer.php:11 functions.php:329
+msgid "Footer Widgets"
+msgstr ""
+
+#: footer.php:35
+msgid "Q Shop - Powered by"
+msgstr ""
+
+#: footer.php:37
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:42
+msgid "Made by"
+msgstr ""
+
+#: footer.php:44
+msgid "Daison"
+msgstr ""
+
+#: footer.php:61
+msgid "Back to top"
+msgstr ""
+
+#: functions.php:21
+msgid "White"
+msgstr ""
+
+#: functions.php:26
+msgid "Gray"
+msgstr ""
+
+#: functions.php:31
+msgid "Black"
+msgstr ""
+
+#: functions.php:36
+msgid "Green"
+msgstr ""
+
+#: functions.php:55 template-parts/header/main-header.php:91
+#: template-parts/header/main-header.php:196
+msgid "Main Navigation Menu"
+msgstr ""
+
+#: functions.php:242 template-parts/header/main-header.php:133
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions.php:299 template-parts/home/shop-items-section.php:57
+#: woocommerce/archive-product.php:96
+msgid "Shop Sidebar Widgets"
+msgstr ""
+
+#: functions.php:301
+msgid "These are widgets displayed in the shop sidebar."
+msgstr ""
+
+#: functions.php:309 sidebar.php:7 template-parts/posts/single-layout1.php:114
+msgid "Blog Sidebar Widgets"
+msgstr ""
+
+#: functions.php:311
+msgid "These are widgets displayed in the blogsidebar."
+msgstr ""
+
+#: functions.php:319 template-parts/header/hidden-sidebar.php:15
+msgid "Hidden Sidebar Widgets"
+msgstr ""
+
+#: functions.php:321
+msgid "These are widgets displayed in the hidden sidebar."
+msgstr ""
+
+#: functions.php:331
+msgid "These are widgets displayed in the footer."
+msgstr ""
+
+#: functions.php:365
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:25
+msgid "Skip to main content"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to navigation"
+msgstr ""
+
+#: header.php:42
+msgid "Type search above and then hit Enter."
+msgstr ""
+
+#: header.php:44 template-parts/header/hidden-sidebar.php:11
+msgid "Close"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:8
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: inc/qshop_admin_menu.php:98 inc/qshop_admin_menu.php:247
+#: inc/qshop_admin_menu.php:248
+msgid "Q Shop"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:100
+msgid "PRO"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:102
+msgid "FREE"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:113
+msgid "Q Shop Pro Active"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:117
+msgid ""
+"Thank you for using Q Shop Pro! You have access to all premium features, "
+"priority support, and future updates."
+msgstr ""
+
+#: inc/qshop_admin_menu.php:130
+msgid "Get Q Shop Pro Add-on"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:134
+msgid ""
+"Unlock the full potential of Q Shop with the Pro Add-on. Enjoy advanced "
+"features, premium support, and more customization options."
+msgstr ""
+
+#: inc/qshop_admin_menu.php:138
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:148
+msgid "Customize Your Shop"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:152
+msgid ""
+"Take your shop to the next level with the customization options. Tailor your "
+"site to match your unique style and branding."
+msgstr ""
+
+#: inc/qshop_admin_menu.php:156
+msgid "Customize Theme"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:165
+msgid "Demo Import"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:170
+msgid "Easily import demo content to get your site up and running quickly."
+msgstr ""
+
+#: inc/qshop_admin_menu.php:173
+msgid "Learn More"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:184
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:189
+msgid ""
+"Explore the comprehensive documentation for Q Shop to learn more about its "
+"features and customization options."
+msgstr ""
+
+#: inc/qshop_admin_menu.php:192
+msgid "View Documentation"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:203
+msgid "Feedback"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:208
+msgid ""
+"I value your feedback! If you have suggestions or ideas for improving Q "
+"Shop, please let me know."
+msgstr ""
+
+#: inc/qshop_admin_menu.php:211
+msgid "Send Feedback"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:222
+msgid "Need Help?"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:227
+msgid ""
+"If you’re experiencing issues or have questions, please check out the "
+"support resources:"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:227
+msgid "Support Page"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:227
+msgid "WordPress.org Forum"
+msgstr ""
+
+#: inc/qshop_admin_menu.php:230
+msgid "Contact Developer"
+msgstr ""
+
+#: search.php:9 search.php:63
+msgid "Results for: "
+msgstr ""
+
+#: searchform.php:4
+msgid "Search products ..."
+msgstr ""
+
+#: searchform.php:5 searchform.php:13 template-parts/header/main-header.php:160
+#: template-parts/header/main-header.php:164
+msgid "Search"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search blog posts ..."
+msgstr ""
+
+#: template-parts/header/login-form.php:31
+msgid "Login"
+msgstr ""
+
+#: template-parts/header/login-form.php:37
+msgid "Username or email address"
+msgstr ""
+
+#: template-parts/header/login-form.php:41
+msgid "Password"
+msgstr ""
+
+#: template-parts/header/login-form.php:50
+msgid "Remember me"
+msgstr ""
+
+#: template-parts/header/login-form.php:53
+msgid "Log in"
+msgstr ""
+
+#: template-parts/header/login-form.php:58
+msgid "Lost your password?"
+msgstr ""
+
+#: template-parts/header/login-form.php:67
+msgid "New customer?"
+msgstr ""
+
+#: template-parts/header/login-form.php:69
+msgid "Create an account"
+msgstr ""
+
+#: template-parts/header/login-form.php:89
+#, php-format
+msgid "Hello %1$s"
+msgstr ""
+
+#: template-parts/header/login-form.php:96
+msgid "My Account"
+msgstr ""
+
+#: template-parts/header/login-form.php:99
+msgid "Logout"
+msgstr ""
+
+#: template-parts/header/main-header.php:56
+msgid "Sidebar"
+msgstr ""
+
+#: template-parts/header/main-header.php:106
+msgid "Sign In"
+msgstr ""
+
+#: template-parts/header/main-header.php:112
+msgid "Close Form"
+msgstr ""
+
+#: template-parts/header/main-header.php:160
+msgid "Open search"
+msgstr ""
+
+#: template-parts/header/main-header.php:180
+msgid "Toggle menu"
+msgstr ""
+
+#: template-parts/header/main-header.php:181
+msgid "Menu"
+msgstr ""
+
+#: template-parts/header/main-header.php:192
+msgid "Main Menu"
+msgstr ""
+
+#: template-parts/header/main-header.php:203
+#: template-parts/header/main-header.php:204
+msgid "Close menu"
+msgstr ""
+
+#: template-parts/home/hero-section-one.php:56
+#: template-parts/home/hero-section-one.php:58
+msgid "Call to Action Image"
+msgstr ""
+
+#: template-parts/home/hero-section-one.php:65
+msgid "Shop Now"
+msgstr ""
+
+#: template-parts/home/shop-items-section.php:15
+#: template-parts/home/shop-items-section.php:21
+#: template-parts/home/shop-items-section.php:71
+#: template-parts/home/shop-items-section.php:77
+msgid "Shop Items"
+msgstr ""
+
+#: template-parts/home/shop-items-section.php:24
+#: template-parts/home/shop-items-section.php:80
+#: template-parts/home/shop-items-section.php:102
+msgid "All Products"
+msgstr ""
+
+#: template-parts/home/shop-items-section.php:47
+msgid "View All Products"
+msgstr ""
+
+#: template-parts/nothing-found.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/nothing-found.php:13
+msgid "We could not find what you are looking for. Please try again."
+msgstr ""
+
+#: template-parts/pagination.php:13 woocommerce/loop/pagination.php:42
+msgid "Prev"
+msgstr ""
+
+#: template-parts/pagination.php:14 woocommerce/loop/pagination.php:43
+msgid "Next"
+msgstr ""
+
+#: template-parts/posts/large-post.php:19
+msgid "In:"
+msgstr ""
+
+#: template-parts/posts/large-post.php:23
+#: template-parts/posts/medium-post.php:37
+msgid "On:"
+msgstr ""
+
+#: template-parts/posts/large-post.php:55
+#: template-parts/posts/medium-post.php:39
+msgid "Read More"
+msgstr ""
+
+#: template-parts/posts/single-layout1.php:39
+#: template-parts/posts/single-layout2.php:39
+msgid "0"
+msgstr ""
+
+#: template-parts/posts/single-layout1.php:47
+#: template-parts/posts/single-layout2.php:47
+msgid "1"
+msgstr ""
+
+#: template-parts/posts/single-layout1.php:61
+#: template-parts/posts/single-layout2.php:61
+msgid "By: "
+msgstr ""
+
+#: template-parts/related-posts.php:25
+msgid "From this category"
+msgstr ""
+
+#: template-parts/related-posts.php:27
+msgid "Related Posts"
+msgstr ""
+
+#: template-parts/related-posts.php:38
+msgid "View All"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:27
+msgid "Sale"
+msgstr ""
+
+#: woocommerce/single-product/related.php:40
+msgid "Related products"
+msgstr ""

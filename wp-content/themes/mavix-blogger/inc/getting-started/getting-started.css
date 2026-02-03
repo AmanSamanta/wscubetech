@@ -1,0 +1,78 @@
+.notice.notice-success.getting-started {
+    padding: 10px 10px 20px;
+}
+
+.notice.notice-success.getting-started strong {
+    font-size: 20px;
+}
+
+.mavix-blogger-install-plugins.button {
+    background: #2271b1;
+    color: #fff;
+    padding: 0 32px;
+    border-color: #2271b1;
+    font-size: 14px;
+    min-height: 46px;
+    line-height: 3.14285714;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mavix-blogger-install-plugins.button:hover,
+.mavix-blogger-install-plugins.button:focus,
+.mavix-blogger-install-plugins.button:active {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+}
+
+.getting-started-notice-dismiss {
+    color: #ddd;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.getting-started-notice-dismiss:hover,
+.getting-started-notice-dismiss:focus,
+.getting-started-notice-dismiss:active {
+    color: #bababa;
+}
+
+.getting-started-notice-dismiss:before {
+    display: inline-block;
+    line-height: 1;
+}
+
+.wp-core-ui p .button {
+    display: inline-table;
+    vertical-align: middle;
+}
+
+.button-primary.button-hero:before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.mavix-blogger-install-plugins.button.updating-message:before {
+    margin: 13px 5px 0 -2px;
+}
+
+@media screen and (max-width: 991px){
+    .getting-started-notice-dismiss {
+        position: static;
+        display: block;
+        padding-bottom: 10px !important;
+    }
+}

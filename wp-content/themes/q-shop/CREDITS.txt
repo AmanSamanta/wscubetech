@@ -1,0 +1,185 @@
+=== Q Shop Theme - Credits & Attributions ===
+
+This theme contains third-party resources that are used under the following licenses:
+
+---
+
+FONTS
+=====
+
+Inter Font Family
+- Source: Google Fonts (https://fonts.google.com/specimen/Inter)
+- License: Open Font License (OFL)
+- License URL: https://scripts.sil.org/OFL
+- Used for: Body text and heading fonts throughout the theme
+- Loaded from: Google Fonts API (https://fonts.googleapis.com/css)
+
+---
+
+JAVASCRIPT LIBRARIES (Included with WordPress)
+===============================================
+
+jQuery
+- License: MIT License
+- URL: https://jquery.com/
+- Note: Theme uses jQuery version bundled with WordPress
+- Used for: DOM manipulation and custom theme functionality
+
+jQuery Masonry
+- License: MIT License
+- URL: https://masonry.desandro.com/
+- Note: Uses version included in WordPress
+- Used for: Grid layout for shop items and product galleries
+
+ImagesLoaded
+- License: MIT License
+- URL: https://imagesloaded.desandro.com/
+- Note: Uses version included in WordPress
+- Used for: Detecting when images are loaded in galleries
+
+---
+
+WORDPRESS CORE FEATURES
+=======================
+
+The theme uses the following WordPress Core features and APIs:
+
+- WooCommerce Theme Support (official plugin integration)
+- Customizer API for theme settings
+- Theme Customization Features:
+  * Custom Logo Support
+  * Custom Colors
+  * Editor Styles
+  * Editor Color Palette
+  * HTML5 Theme Support
+  * Post Thumbnails/Featured Images
+  * Post Formats (gallery, video, audio)
+  * Navigation Menus
+  * Widgets API
+
+---
+
+ICONS
+=====
+
+All SVG icons used in this theme are either:
+- Custom-made specifically for Q Shop theme by the theme author
+- Part of WooCommerce plugin integration
+
+Icon files included in /images/:
+- btn-corner-left.svg
+- btn-corner-left-white.svg
+- btn-corner-right.svg
+- btn-corner-right-white.svg
+- error-broken.svg
+- gallery-icon.svg
+- hero-layout-1.svg
+- hero-layout-2.svg
+- hero-layout-3.svg
+- hidden-sidebar-close.svg
+- list-calendar.svg
+- list-circle.svg
+- list-cite.svg
+- list-clock.svg
+- list-comment.svg
+- meta-comments.svg
+- modal-close.svg
+- modal-close-white.svg
+- play-icon.svg
+- single-layout-1.svg
+- single-layout-2.svg
+- sticky-pin.svg
+- woo-account.svg
+- woo-address-edit.svg
+- woo-address.svg
+- woo-dashboard.svg
+- woo-downloads.svg
+- woo-logout.svg
+- woo-orders.svg
+
+All custom icons are included under the same license as the Q Shop theme: GPLv2 or later
+
+---
+
+IMAGES & SCREENSHOTS
+====================
+
+- pro-screenshot.webp: Custom promotional image for theme features
+
+Screenshot Image Source
+- Source: PxHere (https://pxhere.com/en/photo/1041892)
+- License: CC0 Public Domain
+- Used for: Theme screenshot (screenshot.jpg)
+
+---
+
+WORDPRESS PLUGIN INTEGRATION
+============================
+
+The theme is designed to work with:
+
+1. WooCommerce (by Automattic)
+   - License: GPLv3 or later
+   - URL: https://woocommerce.com/
+   - Required for full e-commerce functionality
+
+2. Q Shop Pro Addon (Bundled optional plugin)
+   - License: GPLv3 or later
+   - Provides additional customization options and features
+
+---
+
+LICENSE
+=======
+
+Q Shop Theme
+- License: GNU General Public License v2 or later (GPLv2+)
+- License URL: https://www.gnu.org/licenses/gpl-2.0.html
+
+This means all code, design, and original content in the Q Shop theme is free and open source.
+Anyone may use, modify, and distribute the theme under the terms of the GNU General Public License.
+
+---
+
+THEME AUTHOR
+============
+
+Q Shop Theme
+Author: Daison
+Website: https://daison.me
+License: GPLv2 or later
+
+---
+
+CHANGELOG
+=========
+
+All changes and version history are documented in the theme's readme.txt file.
+
+---
+
+PRIVACY & DATA COLLECTION
+==========================
+
+Google Fonts
+- The theme loads the Inter font family from Google Fonts API
+- Google may collect data about the request to their servers
+- See Google's privacy policy: https://policies.google.com/privacy
+- Users may opt-out by using a locally-hosted font or child theme modification
+
+No other third-party services collect user data through this theme.
+The theme does not track users or collect personal information beyond standard WordPress functionality.
+
+---
+
+MODIFICATIONS & DERIVATIVES
+============================
+
+If you create a modified version of this theme or a child theme,
+please clearly indicate that it is a derivative work and include
+appropriate attribution to the original Q Shop theme and its author.
+
+---
+
+Last Updated: 2025
+For more information, visit: https://daison.me

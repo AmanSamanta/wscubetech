@@ -1,0 +1,105 @@
+#customize-control-qshop_single_design label,
+#customize-control-qshop_hero_design label {
+	display: none;
+}
+
+#sub-accordion-section-qshop_design_section .customize-inside-control-row,
+#customize-control-qshop_hero_design .customize-inside-control-row {
+	display: inline-block;
+}
+
+#sub-accordion-section-qshop_design_section input[type=radio]:checked,
+#customize-control-qshop_hero_design input[type=radio]:checked {
+	border: 2px solid #3582c4;
+}
+
+#sub-accordion-section-qshop_design_section input[type=radio]:checked::before,
+#customize-control-qshop_hero_design input[type=radio]:checked::before {
+	width: 23px;
+	height: 23px;
+	margin: -8px 0 0 -8px;
+	color: #3582c4;
+	border-radius: 0;
+	background: url(../images/checked-customizer.svg) no-repeat transparent;
+}
+
+#_customize-input-qshop_hero_design-radio-hero_one[value="hero_one"],
+#_customize-input-qshop_hero_design-radio-hero_two[value="hero_two"],
+#_customize-input-qshop_hero_design-radio-hero_three[value="hero_three"],
+#_customize-input-qshop_single_design-radio-single_one[value="single_one"],
+#_customize-input-qshop_single_design-radio-single_two[value="single_two"] {
+	position: relative;
+	display: block;
+	width: 82px;
+	height: 102px;
+	margin-right: 7px;
+	float: left;
+	border-radius: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#_customize-input-qshop_hero_design-radio-hero_one[value="hero_one"] {
+	background-image: url(../images/hero-layout-1.svg);
+}
+
+#_customize-input-qshop_hero_design-radio-hero_two[value="hero_two"] {
+	background-image: url(../images/hero-layout-2.svg);
+}
+
+#_customize-input-qshop_hero_design-radio-hero_three[value="hero_three"] {
+	background-image: url(../images/hero-layout-3.svg);
+}
+
+#_customize-input-qshop_single_design-radio-single_one[value="single_one"] {
+	background-image: url(../images/single-layout-1.svg);
+}
+
+#_customize-input-qshop_single_design-radio-single_two[value="single_two"] {
+	background-image: url(../images/single-layout-2.svg);
+}
+
+.qshop-pro-features img {
+	margin-bottom: 0 !important;
+}
+
+.qshop-pro-features-content {
+	padding: 0 20px 20px;
+	border-radius: 0 0 17px 17px;
+	background-color: #fff;
+}
+
+.qshop-pro-features-list {
+	font-style: normal;
+}
+
+.qshop-pro-features-list li {
+	margin: 15px 0;
+}
+
+.qshop-pro-features-list li:first-child {
+	margin-top: 0;
+}
+
+.qshop-pro-label {
+	font-weight: 700;
+	background: #a7a7a7;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 2px 6px 2px 7px;
+	letter-spacing: .1px;
+	font-size: 12px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+.qshop-pro-features-p {
+	margin: 15px 0;
+}
+
+.qshop-pro-button {
+	width: 100%;
+	text-align: center;
+	padding: 3px !important;
+}

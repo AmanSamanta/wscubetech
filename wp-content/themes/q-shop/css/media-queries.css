@@ -1,0 +1,747 @@
+/******************************************************
+    Smaller than 1400px
+*******************************************************/
+
+@media screen and (max-width: 1400px) {
+
+    .wrapper {
+        width: 1200px;
+    }
+
+    .hero-section-one .hero-text h1 {
+        max-width: 830px;
+        font-size: 75px;
+        line-height: 95px;
+    }
+
+    .shop-post-item,
+    .medium-post {
+        width: 373px;
+        margin-right: 40px;
+    }
+
+    /*** Shop & Single Post Pages Styling ***/
+
+    .single-prod-left,
+    .single-prod-right {
+        width: 578px;
+    }
+
+    .products-wrap-left,
+    .single-wrap-left {
+        width: 786px;
+    }
+
+    .sidebar-wrap {
+        width: 373px;
+    }
+
+    .wrapper.single-wrap-center {
+        width: 787px;
+    }
+
+    /*** Footer Widgets Styling ***/
+
+    .footer-widgets .widget:first-of-type {
+        width: 332px;
+        margin-right: 88px;
+    }
+
+    #back-to-top {
+        right: 23px;
+    }
+
+}
+
+/******************************************************
+    Smaller than 1200px
+*******************************************************/
+
+@media screen and (max-width: 1200px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .wrapper,
+    .single-thumb-center {
+        width: 960px;
+    }
+
+    .sticky-header #main-header.stick-it {
+        position: relative;
+    }
+
+    #sticky-wrapper {
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    #main-header {
+        margin-bottom: 76px;
+    }
+
+    /*** Hero Section Styling ***/
+
+    @keyframes hero-cta-slide-in {
+        from {
+            bottom: 132px;
+            opacity: 0;
+        }
+
+        to {
+            bottom: 83px;
+            opacity: 1;
+        }
+    }
+
+    .hero-section-one .hero-call-to-action {
+        bottom: 83px;
+    }
+
+    /*** Mobile NAV Styling ***/
+
+    #main-nav {
+        display: none;
+    }
+
+    #header-elements>ul {
+        float: left;
+    }
+
+    .mobile-menu-icon-wrap {
+        position: relative;
+        display: block;
+        padding: 5px 12px;
+        margin-right: 7px;
+        margin-left: 35px;
+        float: right;
+        color: var(--theme-black);
+        font-size: 13px;
+        text-transform: uppercase;
+        transition: opacity .3s;
+        cursor: pointer;
+    }
+
+    .mobile-menu-icon-wrap:hover {
+        opacity: .5;
+    }
+
+    .hero-header .mobile-menu-icon-wrap {
+        color: #fff;
+    }
+
+    .hero-header .mobile-menu-icon::before {
+        background-image: url(../images/btn-corner-left-white.svg);
+    }
+
+    .hero-header .mobile-menu-icon::after {
+        background-image: url(../images/btn-corner-right-white.svg);
+    }
+
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -400px;
+        width: 250px;
+        height: 100%;
+        background: #fff;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease-in-out;
+        z-index: 9998;
+        padding: 65px 35px;
+        overflow-y: auto;
+    }
+
+    .mobile-menu.active {
+        right: 0;
+    }
+
+    .mobile-menu-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 9997;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .mobile-menu-overlay.active {
+        display: block;
+        opacity: 1;
+    }
+
+    .mobile-menu-close {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        z-index: 2;
+        transition: transform .3s;
+    }
+
+    .mobile-menu-close:hover {
+        transform: scale(1.2);
+    }
+
+    .mobile-menu-close:before,
+    .mobile-menu-close:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 24px;
+        height: 1px;
+        background: var(--theme-black);
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .mobile-menu-close:after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .mobile-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #header-elements .mobile-menu li {
+        position: relative;
+        display: block;
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        border-bottom: 1px solid #EAEAEA;
+    }
+
+    .mobile-menu li:last-child {
+        border-bottom: none;
+    }
+
+    .mobile-menu a {
+        display: block;
+        padding: 15px 0;
+        color: #333;
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        transition: color 0.2s ease;
+    }
+
+    .mobile-menu a:hover {
+        color: #0073aa;
+    }
+
+    .mobile-menu .sub-menu {
+        display: none;
+        padding-left: 15px;
+    }
+
+    #header-elements .mobile-menu .sub-menu li {
+        border-top: 1px solid #EAEAEA;
+        border-bottom: none;
+    }
+
+    .mobile-menu .menu-item-has-children>a:after {
+        content: '+';
+        position: absolute;
+        right: 0;
+        top: 16px;
+        font-size: 19px;
+        line-height: 1;
+    }
+
+    .mobile-menu .menu-item-has-children.active>a:after {
+        content: '-';
+    }
+
+    #menu-icon {
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin: 30px 0 0 11px;
+        float: right;
+        border-radius: 48px;
+        border: 1px solid #E3E3E3;
+        background: #fff url(../images/menu-icon.svg) no-repeat center center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        z-index: 9999;
+        position: relative;
+    }
+
+    #menu-icon:hover {
+        background-color: #f8f8f8;
+        border-color: #ddd;
+    }
+
+    /*** Hero Section Styling ***/
+
+    #hero-section {
+        margin-bottom: 88px;
+    }
+
+    .hero-section-one .hero-text h1 {
+        max-width: 640px;
+        font-size: 65px;
+        line-height: 79px;
+    }
+
+    /*** Shop & Single Post Page Styling ***/
+
+    .single-prod-left,
+    .single-prod-right {
+        width: 460px;
+    }
+
+    .products-wrap-left,
+    .single-wrap-left {
+        width: 628px;
+    }
+
+    .sidebar-wrap {
+        width: 296px;
+    }
+
+    .single-share-icons .copy-link-share {
+        width: 228px;
+    }
+
+    /*** Shop Items & Masonry Posts ***/
+
+    .shop-post-item,
+    .medium-post {
+        width: 296px;
+        margin-right: 36px;
+    }
+
+    .medium-post .post-title {
+        max-width: 80%;
+    }
+
+    /*** Contact & About Us Page Styling ***/
+
+    .center-main-heading {
+        font-size: 50px;
+        line-height: 52px;
+    }
+
+    .about-us .entry,
+    .contact-us .entry,
+    .about-us .faq-section.wrapper,
+    .contact-us .faq-section.wrapper {
+        width: 80%;
+    }
+
+    /*** Sidebar Widgets Styling ***/
+
+    .small-thumb {
+        width: 108px;
+        height: 100px;
+    }
+
+    .small-content {
+        padding-top: 8px;
+    }
+
+    .small-content .post-title {
+        margin-bottom: 6px;
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    /*** Footer Widgets Styling ***/
+
+    .footer-widgets .widget:first-of-type {
+        width: 320px;
+        margin-right: 50px;
+    }
+
+    .footer-widgets .widget {
+        width: 170px;
+        margin-right: 40px;
+    }
+
+}
+
+/******************************************************
+    Smaller than 960px
+*******************************************************/
+
+@media screen and (max-width: 960px) {
+
+    .wrapper,
+    .single-thumb-center,
+    .wrapper.single-wrap-center,
+    .single-header-center {
+        width: 650px;
+    }
+
+    .site-logo {
+        height: 40px;
+    }
+
+    .site-logo img {
+        max-height: 40px;
+    }
+
+    /*** No Hero Section on Mobile ***/
+
+    .hero-header #announcement-bar {
+        background-color: var(--theme-black);
+    }
+
+    .main-header-inner-wrap {
+        border-bottom-color: #EAEAEA;
+    }
+
+    .hero-header .main-logo {
+        display: block;
+    }
+
+    .hero-header .hero-logo,
+    #hero-section {
+        display: none;
+    }
+
+    .hero-header .mobile-menu-icon-wrap button,
+    .hero-header .mobile-menu button,
+    .hero-header #header-search-icon,
+    .hero-header #header-elements svg {
+        color: var(--theme-black);
+    }
+
+    .cart-count-wrap {
+        color: #fff;
+        background-color: var(--theme-black);
+    }
+
+    .hero-header .mobile-menu-icon::before {
+        background-image: url(../images/btn-corner-left.svg);
+    }
+
+    .hero-header .mobile-menu-icon::after {
+        background-image: url(../images/btn-corner-right.svg);
+    }
+
+    /*** Shop & Single Post Page Styling ***/
+
+    .shop-post-item,
+    .medium-post {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .single-prod-left {
+        position: relative;
+        margin-bottom: 35px;
+    }
+
+    .single-prod-left,
+    .single-prod-right,
+    .products-wrap-left,
+    .single-wrap-left,
+    .sidebar-wrap {
+        width: 100%;
+    }
+
+    .single-post-title,
+    .single-header-center .single-post-title {
+        font-size: 34px;
+    }
+
+    .single-share-icons .copy-link-share {
+        width: 244px;
+    }
+
+    .related-posts-wrap .medium-post {
+        margin-bottom: 50px;
+    }
+
+    /*** Contact & About Us Page Styling ***/
+
+    .about-us .entry,
+    .contact-us .entry,
+    .about-us .faq-section.wrapper,
+    .contact-us .faq-section.wrapper {
+        width: 100%;
+    }
+
+    /*** Sidebar Widgets Styling ***/
+
+    .widgettitle,
+    .widget .wp-block-heading,
+    #respond #reply-title,
+    .widget-sidebar .wp-block-group__inner-container h2:first-of-type,
+    .widget-sidebar .wp-block-search .wp-block-search__label,
+    .widget-sidebar .wc-block-product-search__label {
+        margin-bottom: 38px;
+    }
+
+    .small-post {
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+    }
+
+    .small-thumb {
+        width: 144px;
+        height: 140px;
+    }
+
+    .small-content {
+        padding-top: 8px;
+    }
+
+    .small-content .post-title {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    /*** Footer Widgets Styling ***/
+
+    .footer-widgets .widget:first-of-type {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 70px;
+    }
+
+    /*** Footer Copyright Styling ***/
+
+    #copyright {
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    #copyright p:first-child {
+        margin-top: 40px;
+    }
+
+    #copyright p:last-child {
+        margin-bottom: 40px;
+    }
+
+    #copyright p {
+        float: none;
+        line-height: 40px;
+    }
+
+}
+
+/******************************************************
+    Smaller than 700px
+*******************************************************/
+
+@media screen and (max-width: 700px) {
+
+    select {
+        height: 42px;
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .wrapper,
+    .wrapper,
+    .single-thumb-center,
+    .wrapper.single-wrap-center,
+    .single-header-center {
+        width: 320px;
+    }
+
+    /*** Announcement Bar Styling ***/
+
+    #announcement-bar {
+        padding: 10px 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /*** Main Header Styling ***/
+
+    .main-header-inner-wrap {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .header-col-wrap {
+        display: block;
+    }
+
+    #hidden-sidebar-icon {
+        display: none;
+    }
+
+    #logo-wrap {
+        margin-right: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #logo-wrap,
+    #header-elements {
+        width: 100%;
+        float: none;
+    }
+
+    .section-title {
+        margin-bottom: 41px;
+        text-align: center;
+    }
+
+    .section-title h2 {
+        float: none;
+        font-size: 27px;
+    }
+
+    .section-subtitle {
+        display: none;
+    }
+
+    .view-all-link {
+        display: inline-block;
+        float: none;
+        margin-top: 30px;
+    }
+
+    /*** Shop Items Styling ***/
+
+    .shop-item {
+        margin-bottom: 64px;
+    }
+
+    /*** Shop & Single Post Page Styling ***/
+
+    .single-thumb {
+        margin-bottom: 40px;
+    }
+
+    .single-post-title,
+    .single-header-center .single-post-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .author-meta-single .date {
+        margin-top: 10px;
+        float: left;
+        clear: both;
+    }
+
+    .single-share-icons li {
+        margin-right: 6px;
+        margin-bottom: 20px;
+    }
+
+    .single-share-icons .copy-link-share {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .copy-link-button {
+        width: 34px;
+        height: 34px;
+    }
+
+    .single-wrap .section-title h2 {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .related-posts-wrap .medium-post {
+        margin-bottom: 60px;
+    }
+
+    .related-posts-wrap .medium-post:last-child {
+        margin-bottom: 0;
+    }
+
+    /*** Contact & About Us Page Styling ***/
+
+    .center-main-heading {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .contact-us .center-main-heading {
+        text-align: left;
+    }
+
+
+    .left-contact-text {
+        margin-bottom: 60px;
+    }
+
+    .left-contact-text,
+    .right-contact-form {
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+
+    /*** Sidebar Widgets Styling ***/
+
+    .widget-sidebar>div:last-child {
+        margin-bottom: 0;
+    }
+
+    .small-post {
+        padding-bottom: 34px;
+        margin-bottom: 34px;
+    }
+
+    .small-thumb {
+        width: 110px;
+        height: 106px;
+    }
+
+    .small-content .post-title {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    /*** Footer Widgets Styling ***/
+
+    .footer-widgets .widget {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .footer-widgets .widget:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+/******************************************************
+    Smaller than 320px
+*******************************************************/
+
+@media screen and (max-width: 320px) {
+
+    .wrapper,
+    .wrapper.single-wrap-center,
+    .single-header-center {
+        width: 280px;
+    }
+
+}
