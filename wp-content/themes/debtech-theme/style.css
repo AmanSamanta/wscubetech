@@ -1,0 +1,65 @@
+/*
+Theme Name: DebTech Theme
+Theme URI: https://example.com
+Author: Aman DevTech
+Author URI: https://example.com
+Description: Custom WordPress theme integration step by step
+Version: 1.0
+*/
+body {
+    background-color: #8db3eb;
+    margin: 0;
+    padding: 0;
+    background-image: url("assest/image/sunset.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-branding a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.site-branding .site-logo {
+    max-height: 80px;
+    width: auto;
+    display: block;
+}
+
+.main-navigation {
+    display: block;
+}
+
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #111;
+    padding: 6px 8px;
+}
+.site-content {
+    background: rgb(237, 177, 177);
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
