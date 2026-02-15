@@ -40,6 +40,7 @@ add_shortcode('am_portfolio', function () {
         foreach ($items as $item) {
             echo "<div style='margin-bottom:20px; padding:10px; border:1px solid #ddd;'>
                     <h3>{$item->title}</h3>
+                    <p>{$item->description}</p>
                     <img src='{$item->image}' width='100'>
                   </div>";
         }
@@ -51,7 +52,6 @@ add_shortcode('am_portfolio', function () {
 });
 
 register_activation_hook(__FILE__, 'am_create_tables');
-
 
 if (!defined('ABSPATH')) exit;
 

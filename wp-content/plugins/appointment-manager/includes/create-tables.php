@@ -20,6 +20,7 @@ function am_create_tables() {
     $sql2 = "CREATE TABLE {$wpdb->prefix}portfolio (
         id INT NOT NULL AUTO_INCREMENT,
         title VARCHAR(200),
+        description TEXT,
         image VARCHAR(255),
         PRIMARY KEY (id)
     ) $charset;";
@@ -37,4 +38,5 @@ function am_create_tables() {
     dbDelta($sql1);
     dbDelta($sql2);
     dbDelta($sql3);
+
 }
