@@ -1029,3 +1029,10 @@ Stack trace:
 [14-Feb-2026 19:45:51 UTC] My First Plugin initialized
 [14-Feb-2026 19:46:29 UTC] My First Plugin initialized
 [14-Feb-2026 19:46:46 UTC] My First Plugin initialized
+[15-Feb-2026 17:18:50 UTC] My First Plugin initialized
+[15-Feb-2026 17:19:33 UTC] My First Plugin initialized
+[15-Feb-2026 17:19:34 UTC] My First Plugin initialized
+[15-Feb-2026 17:19:34 UTC] My First Plugin initialized
+[15-Feb-2026 17:20:34 UTC] My First Plugin initialized
+[15-Feb-2026 17:21:35 UTC] My First Plugin initialized
+[15-Feb-2026 17:23:36 UTC] PHP Parse error:  syntax error, unexpected identifier "htgf" in C:\xampp\htdocs\wscubetech\wp-content\plugins\appointment-manager\includes\create-tables.php on line 28

@@ -24,7 +24,8 @@ function am_create_tables() {
         image VARCHAR(255),
         PRIMARY KEY (id)
     ) $charset;";
-
+tftuhgi
+htgf
     // APPOINTMENT TABLE
     $sql3 = "CREATE TABLE {$wpdb->prefix}appointments (
         id INT NOT NULL AUTO_INCREMENT,
